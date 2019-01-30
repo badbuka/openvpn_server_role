@@ -1,2 +1,8 @@
 ---
 # tasks file for openvpn_serv
+- name: Install on Ubuntu
+  import_tasks: instlall_packages_ubuntu.yml
+  when: ansible_distribution == "Ubuntu"
+  tags:
+    - instlall_packages_ubuntu
+

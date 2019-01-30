@@ -1,2 +1,13 @@
 ---
 # defaults file for openvpn_serv
+openvpn_serv_easy_rsa_ca_expire: 3650
+openvpn_serv_easy_rsa_clients: []
+openvpn_serv_easy_rsa_key_city: "Saratov"
+openvpn_serv_easy_rsa_key_country: "RU"
+openvpn_serv_easy_rsa_key_email: "somemail@mail.com"
+openvpn_serv_easy_rsa_key_expire: 3650
+openvpn_serv_easy_rsa_key_name: "server"
+openvpn_serv_easy_rsa_key_org: "PrivatePerson"
+openvpn_serv_easy_rsa_key_ou: "KCM"
+openvpn_serv_easy_rsa_key_province: "SA"
+openvpn_serv_easy_rsa_key_size: 2048

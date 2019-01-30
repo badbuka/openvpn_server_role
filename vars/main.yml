@@ -1,2 +1,9 @@
 ---
 # vars file for openvpn_serv
+
+openvpn_serv_easy_rsa_ca_dir: /etc/easy-rsa
+openvpn_serv_easy_rsa_key_dir: "{{ openvpn_serv_easy_rsa_ca_dir }}/keys"
+
+openvpn_serv_packages_ubuntu:
+  -openvpn
+  -easy-rsa
